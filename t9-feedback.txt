@@ -1,0 +1,12 @@
+- The @RequestBody class "Transfer" seems to contain an excessive
+amount of information. In theory, it only requires 2 properties, 
+the amount, and the id (or username) of the person we're sending it
+to. 
+
+If you need all those properties for something else later on, then
+I suggest making a TransferDTO class with only those 2 fields I just
+mentioned.
+
+- On the /transfer endpoint, everything is setup so that it returns a 
+String. This is a bit strange, a better approach would have been to
+maybe return the new balance following the transfer.
