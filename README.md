@@ -8,3 +8,20 @@ Developed a Venmo-like application that uses a RESTful API to complete money tra
 * View list of users to send requests to
 * Transfer funds to other users and request transfer from other users
 * View pending requests and approve/deny them
+
+## How To Use
+
+Step One: Setup the Database
+* Install and run a PostgreSQL Server
+* Install and run Postman
+* Create a new database called tenmo.sql 
+* Create a new database called test-data.sql
+# Run the backend server
+
+Step Two: npm i
+# Install dependencies
+$ npm install
+
+Step Three: Run the app
+$ npm run serve
+
